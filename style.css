@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 12px;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    background-color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.action {
+    display: flex;
+    background-color: #F9FAF8;
+}
+
+#logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+#hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 4px;
+}
+
+#info-header {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#info-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 4px;
+}
+
+#quote-text {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-name {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+}
