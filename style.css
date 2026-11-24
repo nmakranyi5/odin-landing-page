@@ -39,8 +39,6 @@ img {
     display: flex;
     padding-left: 96px;
     padding-right: 96px;
-    justify-content: space-between;
-    margin-top: 64px;
     margin-bottom: 64px;
 }
 
