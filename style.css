@@ -8,6 +8,11 @@ body {
     margin: 0;
 }
 
+img {
+    width: 300px;
+    height: 200px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -18,7 +23,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    padding-left: 96px;
+    padding-right: 96px;
 }
 
 .footer {
@@ -31,16 +37,49 @@ body {
 
 .hero {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    padding-left: 96px;
+    padding-right: 96px;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.hero-left {
+    display: flex;
     flex-direction: column;
+    padding-right: 36px;
+    gap: 8px;
 }
 
 .info {
     display: flex;
     background-color: #F9FAF8;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 160px;
+}
+
+.card-img {
+    display: flex;
+    color: blue;
+    max-width: 160px;
+    max-height: 160px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .quote {
@@ -50,11 +89,27 @@ body {
     padding: 48px;
     padding-left: 96px;
     padding-right: 96px;
+    justify-content: flex-end;
+    align-items: end;
 }
 
 .action {
     display: flex;
     background-color: #F9FAF8;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 48px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 #logo-text {
@@ -77,20 +132,19 @@ body {
 }
 
 #info-header {
-    font-size: 18px;
+    font-size: 24px;
     color: #1F2937;
     font-weight: 900;
 }
 
 #info-text {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
     margin: 4px;
 }
 
 #quote-text {
     display: flex;
-    justify-content: center;
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
@@ -99,9 +153,18 @@ body {
 
 #quote-name {
     display: flex;
-    justify-content: flex-end;
     color: black;
     font-weight: bold;
+}
+
+#call-header {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+#call-text {
+    font-size: 12px;
 }
 
 ul {
@@ -115,13 +178,29 @@ a {
     /* this removes the line under the links */
     text-decoration: none;
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 button {
+    display: flex;
     background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 16px;
+    max-width: 100px;
+    max-height: 30px;
+}
+
+#hero-button {
     color: #F9FAF8;
     border: none;
-    border-radius: 8px;
-    padding: 16px;
+}
+
+#action-button {
+    display: flex;
+    border-color: white;
+    margin: 36px;
 }
